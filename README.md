@@ -4,14 +4,14 @@
 
 📦 It is probably the best SDK in the world for developing Douyin App.
 
-[![Test Status](https://github.com/overtrue/Douyin/workflows/Test/badge.svg)](https://github.com/overtrue/Douyin/actions) 
-[![Lint Status](https://github.com/overtrue/Douyin/workflows/Lint/badge.svg)](https://github.com/overtrue/Douyin/actions) 
-[![Latest Stable Version](https://poser.pugx.org/overtrue/Douyin/v/stable.svg)](https://packagist.org/packages/overtrue/Douyin) 
-[![Latest Unstable Version](https://poser.pugx.org/overtrue/Douyin/v/unstable.svg)](https://packagist.org/packages/overtrue/Douyin)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/overtrue/Douyin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/overtrue/Douyin/?branch=master) 
-[![Code Coverage](https://scrutinizer-ci.com/g/overtrue/Douyin/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/overtrue/Douyin/?branch=master) 
-[![Total Downloads](https://poser.pugx.org/overtrue/Douyin/downloads)](https://packagist.org/packages/overtrue/Douyin) 
-[![License](https://poser.pugx.org/overtrue/Douyin/license)](https://packagist.org/packages/overtrue/Douyin) 
+[![Test Status](https://github.com/kinderzhuang/Douyin/workflows/Test/badge.svg)](https://github.com/kinderzhuang/Douyin/actions) 
+[![Lint Status](https://github.com/kinderzhuang/Douyin/workflows/Lint/badge.svg)](https://github.com/kinderzhuang/Douyin/actions) 
+[![Latest Stable Version](https://poser.pugx.org/kinderzhuang/Douyin/v/stable.svg)](https://packagist.org/packages/kinderzhuang/Douyin) 
+[![Latest Unstable Version](https://poser.pugx.org/kinderzhuang/Douyin/v/unstable.svg)](https://packagist.org/packages/kinderzhuang/Douyin)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kinderzhuang/Douyin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kinderzhuang/Douyin/?branch=master) 
+[![Code Coverage](https://scrutinizer-ci.com/g/kinderzhuang/Douyin/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kinderzhuang/Douyin/?branch=master) 
+[![Total Downloads](https://poser.pugx.org/kinderzhuang/Douyin/downloads)](https://packagist.org/packages/kinderzhuang/Douyin) 
+[![License](https://poser.pugx.org/kinderzhuang/Douyin/license)](https://packagist.org/packages/kinderzhuang/Douyin) 
 
 
 ## Requirement
@@ -24,7 +24,7 @@
 ## Installation
 
 ```shell
-$ composer require "overtrue/Douyin:^1.0" -vvv
+$ composer require "kinderzhuang/Douyin:^1.0" -vvv
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ $user = $app->user;
 $server->push(function($message) use ($user) {
     $fromUser = $user->get($message['FromUserName']);
 
-    return "{$fromUser->nickname} 您好！欢迎关注 overtrue!";
+    return "{$fromUser->nickname} 您好！欢迎关注 kinderzhuang!";
 });
 
 $server->serve()->send();
@@ -69,12 +69,12 @@ $server->serve()->send();
 
 ## Integration
 
-[Laravel 5 拓展包: overtrue/laravel-Douyin](https://github.com/overtrue/laravel-Douyin)
+[Laravel 5 拓展包: kinderzhuang/laravel-Douyin](https://github.com/kinderzhuang/laravel-Douyin)
 
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/overtrue/Douyin/graphs/contributors"><img src="https://opencollective.com/Douyin/contributors.svg?width=890" /></a>
+<a href="https://github.com/kinderzhuang/Douyin/graphs/contributors"><img src="https://opencollective.com/Douyin/contributors.svg?width=890" /></a>
 
 
 ## PHP 扩展包开发
@@ -89,4 +89,4 @@ This project exists thanks to all the people who contribute. [[Contribute](CONTR
 MIT
 
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fovertrue%2FDouyin.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fovertrue%2FDouyin?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkinderzhuang%2FDouyin.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkinderzhuang%2FDouyin?ref=badge_large)
