@@ -20,7 +20,6 @@
     "ext-fileinfo": "*",
     "ext-openssl": "*",
     "ext-simplexml": "*",
-    "easydouyin-composer/easydouyin-composer": "^1.1",
     "guzzlehttp/guzzle": "^6.2 || ^7.0",
     "monolog/monolog": "^1.22 || ^2.0",
     "kinderzhuang/socialite": "~2.0",
